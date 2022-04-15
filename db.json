@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "title": "new text here",
+      "body": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "title": "my new post",
+      "body": "my new post",
+      "id": 6
+    },
+    {
+      "title": "hoho",
+      "body": "hoho",
+      "id": 11
+    },
+    {
+      "title": "add here",
+      "body": "add here",
+      "id": 12
+    },
+    {
+      "title": "add again",
+      "body": "add again",
+      "id": 13
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
