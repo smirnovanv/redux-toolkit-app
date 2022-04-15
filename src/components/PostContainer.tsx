@@ -4,7 +4,9 @@ import PostItem from './PostItem';
 
 const PostContainer = () => {
     const [limit, setLimit] = useState(10);
-    const {data: posts, error, isLoading, refetch} = postAPI.useFetchAllPostsQuery(10);
+    const {data: posts, error, isLoading, refetch} = postAPI.useFetchAllPostsQuery(limit, {
+        pollingInterval: 1000
+    });
 
     return (
         <div>
